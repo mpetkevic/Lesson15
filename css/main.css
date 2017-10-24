@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'P22 Underground Thin';
+  src: url("P22UndergroundCYPro-Thin.eot");
+  src: url("P22UndergroundCYPro-Thin.eot?#iefix") format("embedded-opentype"), url("P22UndergroundCYPro-Thin.woff") format("woff"), url("P22UndergroundCYPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'P22 Underground Demi';
+  src: url("P22UndergroundCYPro-Demi.eot");
+  src: url("P22UndergroundCYPro-Demi.eot?#iefix") format("embedded-opentype"), url("P22UndergroundCYPro-Demi.woff") format("woff"), url("P22UndergroundCYPro-Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'P22 Underground Heavy';
+  src: url("P22UndergroundCYPro-Heavy.eot");
+  src: url("P22UndergroundCYPro-Heavy.eot?#iefix") format("embedded-opentype"), url("P22UndergroundCYPro-Heavy.woff") format("woff"), url("P22UndergroundCYPro-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'P22 Underground Medium';
+  src: url("P22UndergroundCYPro-Medium.eot");
+  src: url("P22UndergroundCYPro-Medium.eot?#iefix") format("embedded-opentype"), url("P22UndergroundCYPro-Medium.woff") format("woff"), url("P22UndergroundCYPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'P22 Underground Book';
+  src: url("P22UndergroundCYPro-Book.eot");
+  src: url("P22UndergroundCYPro-Book.eot?#iefix") format("embedded-opentype"), url("P22UndergroundCYPro-Book.woff") format("woff"), url("P22UndergroundCYPro-Book.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%; }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both; }
+
+header {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  position: relative; }
+  header .logo-sec {
+    width: 30%;
+    padding-top: 30px;
+    float: left; }
+    header .logo-sec img {
+      float: left;
+      width: 100px; }
+    header .logo-sec .text {
+      float: right;
+      padding-top: 5px; }
+      header .logo-sec .text p {
+        font-family: "P22 Underground Heavy"; }
+      header .logo-sec .text span {
+        font-family: "P22 Underground Thin";
+        font-size: 10px; }
+  header .phone-sec {
+    float: right;
+    padding-top: 30px; }
+    header .phone-sec a {
+      float: left;
+      font-family: "P22 Underground Thin";
+      font-size: 12px;
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      padding: 17px 22px; }
+      header .phone-sec a:hover {
+        background: #ffffff;
+        color: #000000; }
+    header .phone-sec span {
+      float: right;
+      font-family: "P22 Underground Heavy";
+      font-size: 24px;
+      padding-left: 20px;
+      line-height: 50px; }
+  header h1 {
+    font-family: "P22 Underground Heavy";
+    font-size: 35px;
+    text-align: center;
+    color: #ffff33;
+    padding-top: 40px; }
+  header ul {
+    float: left;
+    font-family: "P22 Underground Book";
+    list-style-image: url(../img/arrow.png);
+    padding-left: 100px;
+    padding-top: 200px; }
+    header ul li {
+      line-height: 150%; }
+  header .form-box {
+    width: 415px;
+    height: 410px;
+    background-color: white;
+    float: right;
+    margin: 30px 40px 35px 0;
+    border-radius: 5px;
+    color: black; }
+    header .form-box h3 {
+      font-family: "P22 Underground Book";
+      padding: 50px 55px 40px;
+      text-align: center; }
+    header .form-box .username {
+      border: 1px solid black;
+      width: 300px;
+      height: 42px;
+      margin: 10px auto;
+      display: block; }
+      header .form-box .username label {
+        background: #333333;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center; }
+        header .form-box .username label i {
+          color: #ffffff;
+          text-align: center;
+          line-height: 40px; }
+      header .form-box .username input {
+        display: inline-block;
+        width: 150px;
+        height: 35px;
+        outline: none;
+        border: none; }
+    header .form-box button {
+      width: 300px;
+      height: 42px;
+      margin: 10px auto;
+      display: block;
+      border: none;
+      background-color: #ffff33;
+      outline: none;
+      cursor: pointer; }
+      header .form-box button:hover {
+        box-shadow: 0px 10px 2px 0px rgba(77, 72, 77, 0.64); }
+  header #money {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%); }
+
+.options {
+  margin-top: 100px; }
+  .options .row .col .yellow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff33;
+    margin: 20px auto;
+    font-family: "P22 Underground Book";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; }
+  .options .row .col span {
+    display: block;
+    font-family: "P22 Underground Book";
+    margin: 0 auto;
+    text-align: center;
+    width: 170px; }
